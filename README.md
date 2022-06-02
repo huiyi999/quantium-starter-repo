@@ -10,7 +10,9 @@ $ python3 -m venv venv
 > 2. Activate the virtual environment:
 
 ```bash
-$ source venv/bin/activate
+$ source venv/bin/activate  
+# or
+$ . ./venv/bin/activate
 (venv) $
 ```
 
@@ -39,9 +41,11 @@ $
 > 5. test dash app
 
 ```bash
-(venv) $ python -m pytest --remote -k bsly001 task5.py
-(venv) $ pytest --remote -k bsly001 task5.py
+(venv) $ python -m pytest tests/task5.py
+(venv) $ pytest tests/task5.py
 ```
+
+chromedriver is in  /usr/local/bin/chromedriver
 
 These CSV files contain transaction data for Soul Foods’s entire morsel line. 
 
