@@ -1,8 +1,0 @@
-{
-  "task5.py::test_header_present": true,
-  "task5.py::test_visualisation_present": true,
-  "task5.py::test_region_picker_present": true,
-  "tests/task5.py::test_header_present": true,
-  "tests/task5.py::test_visualisation_present": true,
-  "tests/task5.py::test_region_picker_present": true
-}
